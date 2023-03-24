@@ -11,10 +11,10 @@
            ACCEPT X.
            DIVIDE X BY 2 GIVING X REMAINDER RESULT
            IF RESULT = 0
-               DISPLAY "EH um numero par"
+               DISPLAY "Numero Par"
                CONTINUE
            ELSE
-               DISPLAY "EH um numero impar"
+               DISPLAY "Numero Impar"
            END-IF.
            STOP RUN.
        END PROGRAM PROGRAMAPAROUIMPAR.
